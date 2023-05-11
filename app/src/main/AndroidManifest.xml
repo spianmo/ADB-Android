@@ -36,9 +36,6 @@
         <activity
             android:name=".views.HelpActivity"
             android:label="@string/more" />
-        <activity
-            android:name=".views.BookmarksActivity"
-            android:label="@string/bookmarks" />
 
         <service
             android:name=".services.QSTile"

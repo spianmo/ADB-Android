@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">LADB</string>
+    <string name="app_name">ADB</string>
 
     <string name="command_hint">Shell command</string>
     <string name="command_hint_waiting">Waiting for connection…</string>

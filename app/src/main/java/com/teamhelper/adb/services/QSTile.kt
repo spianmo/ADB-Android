@@ -1,8 +1,8 @@
-package com.draco.ladb.services
+package com.teamhelper.adb.services
 
 import android.content.Intent
 import android.service.quicksettings.TileService
-import com.draco.ladb.views.MainActivity
+import com.teamhelper.adb.views.MainActivity
 
 class QSTile : TileService() {
     override fun onClick() {
