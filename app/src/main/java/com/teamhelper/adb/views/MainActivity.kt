@@ -61,6 +61,10 @@ class MainActivity : AppCompatActivity() {
         val text = binding.command.text.toString()
         lastCommand = text
         binding.command.text = null
+        if (text == "clear") {
+            viewModel.clearOutputText()
+            return
+        }
         lifecycleScope.launch(Dispatchers.IO) {
             viewModel.adb.sendToShellProcess(text)
         }
